@@ -1,5 +1,5 @@
 <!-- 
-     Send paramenters: 
+     Send paramenters: http://myAPIserverIP/api/api2.php?host=76.76.76.6&port=80&time=100&method=dns
 
      Credits @slippersyo & @criticalsecurity.to
      Line 19 to edit your server IP 
