@@ -2,7 +2,7 @@
 # Installs the server api
 # Installs all needed packages aswell as fixes SSH2
 # Note: CentOS 6 Only.
-# Credits ( @SlippersYo x @CriticalSecurity.To )
+# Credits ( @SlippersYo x @dirtystress )
 import os
 import time
 important = '437265617465642042792040736c697070657273796f20782040637269746963616c73656375726974792e746f2021'.decode('hex')
